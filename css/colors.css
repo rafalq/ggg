@@ -3,13 +3,13 @@
   --color-primary-light: #6E9AB3;
   --color-primary-dark: #2F4F4F;
 
-  --color-bg-header-1: rgba(10, 13, 16, 0.8);
-  --color-bg-header-2: rgba(19, 24, 28, 0.8);
+  --color-bg-header-1: rgba(10, 13, 16, 0.85);
+  --color-bg-header-2: rgba(19, 24, 28, 0.85);
 
-  --color-accent: #5E8B7E;
-  --color-accent-light: #81A99C;
-  --color-accent-dark: #3F6A5F;
-
+  --color-accent: #C1A661;
+  --color-accent-light: #D6BA80;
+  --color-accent-dark: #8F7642;
+  
   --color-bg: #0B0C0E;
   --color-surface: #16191C;
   --color-border: #2A2E32;
