@@ -1,0 +1,44 @@
+@use "./variables" as *;
+
+@mixin section-base($padding-y: 20rem, $padding-x: 20rem, $margin-top: -10vh) {
+  padding: $padding-y $padding-x;
+  margin-top: $margin-top;
+}
+
+@mixin btn-link(
+  $color: $color-primary,
+  $font-size: 1.4rem,
+  $underline-height: 2px,
+  $padding-bottom: 2px,
+  $hover-color: null,
+  $underline-color: null
+) {
+  font-size: $font-size;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: $padding-bottom;
+  color: $color;
+  transition: color 0.3s ease;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: $underline-height;
+    background-color: if($underline-color, $underline-color, currentColor);
+    transition: width 0.4s ease;
+  }
+
+  &:hover {
+    @if $hover-color {
+      color: $hover-color;
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+}

@@ -28,6 +28,46 @@
   margin-bottom: 6rem;
 }
 
+.mb-3xl {
+  margin-bottom: 8rem;
+}
+
+.mb-3xl {
+  margin-bottom: 10rem;
+}
+
+.mt-xs {
+  margin-top: 0.25rem;
+}
+
+.mt-sm {
+  margin-top: 0.5rem;
+}
+
+.mt-md {
+  margin-top: 1rem;
+}
+
+.mt-lg {
+  margin-top: 2rem;
+}
+
+.mt-xl {
+  margin-top: 4rem;
+}
+
+.mt-2xl {
+  margin-top: 6rem;
+}
+
+.mt-3xl {
+  margin-top: 8rem;
+}
+
+.mt-4xl {
+  margin-top: 10rem;
+}
+
 // Generate margin utilities
 // @for $i from 0 through 20 {
 //   .m-#{$i} {

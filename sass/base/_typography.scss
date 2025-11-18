@@ -53,9 +53,21 @@ body {
 }
 
 .heading-tertiary {
-  font-size: $text-base;
-  font-weight: 700;
-  text-transform: uppercase;
+  &--primary {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size: $text-base;
+    color: $color-primary;
+  }
+
+  &--accent {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size: $text-base;
+    color: $color-accent;
+  }
 }
 
 .paragraph {
